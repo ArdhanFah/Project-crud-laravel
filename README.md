@@ -44,12 +44,14 @@ Cara Menjalankan Project
 7. Buat database baru (kosong) pada mysql (via phpmyadmin/cli) dengan nama project.
 8. Duplikat file .env.example, lalu ganti nama menjadi .env.
 9. Edit koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD) seperti dibawah ini.
-        DB_CONNECTION=mysql
-        DB_HOST=localhost
-        DB_PORT=3306
-        DB_DATABASE=project
-        DB_USERNAME=root
-        DB_PASSWORD=
+     <ul>
+        <li>DB_CONNECTION=mysql</li>
+        <li>DB_HOST=localhost</li>
+        <li>DB_PORT=3306</li>
+        <li>DB_DATABASE=project</li>
+        <li>DB_USERNAME=root</li>
+        <li>DB_PASSWORD=</li>
+    </ul>
 10. Jika hanya ingin membuat tabel, jalankan perintah php artisan migrate.
 11. Setelah selesai, Jalankan perintah php artisan serve maka dapat diakses dengan http://localhost:8000/
 
