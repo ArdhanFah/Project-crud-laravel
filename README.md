@@ -55,7 +55,7 @@ Cara Menjalankan Project
 10. Jika hanya ingin membuat tabel, jalankan perintah php artisan migrate.
 11. Setelah selesai, Jalankan perintah php artisan serve maka dapat diakses dengan http://localhost:8000/produk/
 
-In Linux
+<h3>In Linux</h3>
 
 soon :)
 
